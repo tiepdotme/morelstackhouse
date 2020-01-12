@@ -2,7 +2,9 @@ module.exports = {
   siteMetadata: {
     title: `Morel Stackhouse`,
     description: `Orthobionomy web site for Morel Stackhouse.`,
+    keywords: `orthobionomy, ortho-bionomy, bodywork, body work, massage, morel, stackhouse, orthobionomy instruction, orthbionomy courses`,
     author: `@amygroshek`,
+    startDate: `2018`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
