@@ -18,7 +18,7 @@ const Layout = ({ children }) => {
       site {
         siteMetadata {
           title,
-          startDate
+          copyrightDate
         }
       }
     }
@@ -37,7 +37,7 @@ const Layout = ({ children }) => {
       >
         <main>{children}</main>
         <footer>
-          <p>Copyright © Morel Stackhouse {data.site.siteMetadata.startDate} onwards.</p>
+          <p>Copyright © Morel Stackhouse {data.site.siteMetadata.copyrightDate} onwards.</p>
           <p>Ortho-Bionomy® is a registered trademark of the Society of Ortho-Bionomy International, Inc. and is used with permission.</p>
           <p>Society of Ortho-Bionomy International® is a registered trademark that indicates membership in the Society, and it is used with permission.</p>
           <p>This site is maintained ♥ <Link to="https://hire.amygroshek.com">with love</Link>.</p>
